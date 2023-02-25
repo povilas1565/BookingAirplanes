@@ -7,6 +7,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@EnableJpaRepositories(basePackages = {"com.example.services.flightbooking.domain.repo"})
+@EnableJpaRepositories(basePackages = {"com.example.services.flightbooking.airport.domain.repo"})
 public class JpaConfig {
 }
