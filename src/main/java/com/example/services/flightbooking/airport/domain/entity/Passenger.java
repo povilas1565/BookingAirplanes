@@ -18,7 +18,7 @@ public class Passenger {
 	@GeneratedValue(generator = "passenger-id-gen")
     @GenericGenerator(name = "passenger-id-gen", 
       parameters = @Parameter(name = "prefix", value = "PS"), 
-      strategy = "com.example.services.flightbooking.domain.util.StringSequenceIdGenerator")
+      strategy = "com.example.services.flightbooking.airport.domain.util.StringSequenceIdGenerator")
 	private String id;
 	
 	@Column

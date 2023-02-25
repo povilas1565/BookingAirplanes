@@ -21,7 +21,7 @@ public class SwaggerConfig {
     public Docket bookingApi() {
     	return new Docket(DocumentationType.SWAGGER_2)          
     		      .select()                                       
-    		      .apis(RequestHandlerSelectors.basePackage("com.example.services.flightbooking"))
+    		      .apis(RequestHandlerSelectors.basePackage("com.example.services.flightbooking.airport"))
     		      .paths(PathSelectors.ant("/**"))                     
     		      .build().apiInfo(apiInfo());
     }
